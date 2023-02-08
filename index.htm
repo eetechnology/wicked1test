@@ -1,45 +1,21 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Azure Media Player</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--*****START OF Azure Media Player Scripts*****-->
-        <!--Note: DO NOT USE the "latest" folder in production. Replace "latest" with a version number like "1.0.0"-->
-        <!--EX:<script src="//amp.azure.net/libs/amp/1.0.0/azuremediaplayer.min.js"></script>-->
-        <!--Azure Media Player versions can be queried from //aka.ms/ampchangelog-->
-    <link href="https://amp.azure.net/libs/amp/latest/skins/amp-default/azuremediaplayer.min.css" rel="stylesheet">
-    <script src="https://amp.azure.net/libs/amp/latest/azuremediaplayer.min.js"></script>
-    <!--*****END OF Azure Media Player Scripts*****-->
-
-  <style>
-video#myVideo { 
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto;
-    z-index: -100;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    
-    background-size: cover; 
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+img {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
-  </style>
-  
+</style>
 </head>
-<body style="margin: 0px;">
-<video width="700" src="http://127.0.0.1:8081" autoplay controls></video>
-    video id="azuremediaplayer" style="position: fixed; min-height: 100%; min-width: 100%;" width="auto" height="auto" class="azuremediaplayer amp-default-skin amp-big-play-centered" controls autoPlay poster="" data-setup='{}' tabindex="0">
-		<source src="https://wicked1media-usct.streaming.media.azure.net/a9c793b0-94b9-4a06-85d3-c942d2f9298f/ca5969ab-babf-46d2-a22e-08cf7a0c3117.ism/manifest" type="application/vnd.ms-sstr+xml" />
-        <p class="amp-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that supports HTML5 video</p>
-    </video>
+<body style="background-color: #D9D9D9;">
+
+
+<img src="https://i.postimg.cc/52KB3HVY/lethamaes-draft.png" alt="Paris" style="width:42%;">
+
 </body>
 </html>
